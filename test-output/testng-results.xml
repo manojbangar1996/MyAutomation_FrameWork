@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-10T14:12:12 IST" name="Suite" finished-at="2023-03-10T14:12:34 IST" duration-ms="21954">
+  <suite started-at="2023-03-10T23:19:48 IST" name="Suite" finished-at="2023-03-10T23:20:33 IST" duration-ms="44645">
     <groups>
     </groups>
-    <test started-at="2023-03-10T14:12:12 IST" name="Test" finished-at="2023-03-10T14:12:34 IST" duration-ms="21954">
-      <class name="com.test.Register_Test">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:com.test.Register_Test@1ca3b418]" started-at="2023-03-10T14:12:12 IST" name="initialization" finished-at="2023-03-10T14:12:12 IST" duration-ms="14" status="PASS">
+    <test started-at="2023-03-10T23:19:48 IST" name="Test_Chrome" finished-at="2023-03-10T23:20:33 IST" duration-ms="44645">
+      <class name="com.test.Login_Test2">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.test.Login_Test2@ee86bcb]" started-at="2023-03-10T23:19:47 IST" name="initialization" finished-at="2023-03-10T23:19:48 IST" duration-ms="1858" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.Register_Test@1ca3b418]" started-at="2023-03-10T14:12:12 IST" name="setUp" finished-at="2023-03-10T14:12:23 IST" duration-ms="11121" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.Login_Test2@ee86bcb]" started-at="2023-03-10T23:19:48 IST" name="setUp" finished-at="2023-03-10T23:20:09 IST" duration-ms="20742" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Register_User()[pri:0, instance:com.test.Register_Test@1ca3b418]" started-at="2023-03-10T14:12:23 IST" name="Register_User" finished-at="2023-03-10T14:12:33 IST" duration-ms="10241" status="PASS">
+        <test-method signature="verify_LoginPage()[pri:0, instance:com.test.Login_Test2@ee86bcb]" started-at="2023-03-10T23:20:09 IST" name="verify_LoginPage" finished-at="2023-03-10T23:20:32 IST" duration-ms="22964" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Register_User -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.Register_Test@1ca3b418]" started-at="2023-03-10T14:12:33 IST" name="tearDown" finished-at="2023-03-10T14:12:34 IST" duration-ms="524" status="PASS">
+        </test-method> <!-- verify_LoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.Login_Test2@ee86bcb]" started-at="2023-03-10T23:20:33 IST" name="tearDown" finished-at="2023-03-10T23:20:33 IST" duration-ms="435" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.test.Register_Test -->
-    </test> <!-- Test -->
+      </class> <!-- com.test.Login_Test2 -->
+    </test> <!-- Test_Chrome -->
   </suite> <!-- Suite -->
 </testng-results>

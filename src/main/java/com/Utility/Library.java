@@ -10,8 +10,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+
 public class Library 
 {
+	// FOR REPORT CLASS
+	
+	public static ExtentTest test;
+	
 	//Generic Method Of SendKeys()
 	
 	public static void custom_Sendkes(WebElement element,String Value)
@@ -19,10 +26,12 @@ public class Library
 		try
 		{
 			element.sendKeys(Value);
+			// success log
+			test.log(Status.PASS, "Value Succesfully Send=="+Value);
 		}
 		catch (Exception e) {
-			// TODO: handle exception
-			System.out.println(e.getMessage());
+			// TODO: handle exception with log
+			test.log(Status.FAIL,e.getMessage());
 		}
 	}
 	//Generic Method Of Click

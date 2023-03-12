@@ -23,38 +23,38 @@ public class Login_Test2 extends BaseClass
 		Library.custom_Sendkes(login.getTxt_password(),excel.getStringData_Excel("Login", 0, 1));
 		Library.custom_Click(login.getBtn_login());
 		
-		//1// Handle DropDown using generic method from library class
-		
-		Library.Handle_DropDown(null, null);
-		
-		//2// Scroll Element using generic method from library class
-		
-		Library.ScrollIntoElement(driver, null);
-		
-		//3// Alert Handling using generic method from library class
-		
-		Library.HandleAlert(driver).accept(); //press ok to alert message
-		
-		Library.HandleAlert(driver).dismiss();//press cancel to alert Message
-		
-		String text=Library.HandleAlert(driver).getText();//get Alert Message Text
-		
-		//4// Right Click On element using generic method from library class
-		
-		Library.Right_Clickonelement(driver, null);
-		
-		//5// Move to Element using generic method from library class
-		
-		Library.MovetoElement(driver, null);
-		
-		//6// Double Click On Element using generic method from library class
-		
-		Library.Double_ClickonElement(driver, null);
-		
-		// Get Text Of Element using generic method from library class
-		
-		String Element_Text=Library.gettext_Element(null);
-			
+//		//1// Handle DropDown using generic method from library class
+//		
+//		Library.Handle_DropDown(null, null);
+//		
+//		//2// Scroll Element using generic method from library class
+//		
+//		Library.ScrollIntoElement(driver, null);
+//		
+//		//3// Alert Handling using generic method from library class
+//		
+//		Library.HandleAlert(driver).accept(); //press ok to alert message
+//		
+//		Library.HandleAlert(driver).dismiss();//press cancel to alert Message
+//		
+//		String text=Library.HandleAlert(driver).getText();//get Alert Message Text
+//		
+//		//4// Right Click On element using generic method from library class
+//		
+//		Library.Right_Clickonelement(driver, null);
+//		
+//		//5// Move to Element using generic method from library class
+//		
+//		Library.MovetoElement(driver, null);
+//		
+//		//6// Double Click On Element using generic method from library class
+//		
+//		Library.Double_ClickonElement(driver, null);
+//		
+//		// Get Text Of Element using generic method from library class
+//		
+//		String Element_Text=Library.gettext_Element(null);
+//			
 		}
 		
 }
