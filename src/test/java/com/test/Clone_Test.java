@@ -7,6 +7,9 @@ public class Clone_Test
 	{
 		System.out.println("Test clone");
 		System.out.println("Add New");
+		System.out.println("Add New");
+		System.out.println("Add New");
+		System.out.println("Add New");
 		
 	}
 }

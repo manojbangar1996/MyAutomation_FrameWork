@@ -28,8 +28,8 @@ public class BaseClass
 	public void setUp(String BrowserName )
 	{
 		
-				ChromeOptions option=new ChromeOptions();
-				option.addArguments("--remote-allow-origins=*");
+//				ChromeOptions option=new ChromeOptions();
+//				option.addArguments("--remote-allow-origins=*");
 		
 		if(BrowserName.equalsIgnoreCase(config.getBrowserChrome()))
 		{
