@@ -2,6 +2,7 @@
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -26,6 +27,10 @@ public class BaseClass
 	@BeforeMethod
 	public void setUp(String BrowserName )
 	{
+		
+				ChromeOptions option=new ChromeOptions();
+				option.addArguments("--remote-allow-origins=*");
+		
 		if(BrowserName.equalsIgnoreCase(config.getBrowserChrome()))
 		{
 			WebDriverManager.chromedriver().setup();
